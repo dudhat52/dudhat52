@@ -1,16 +1,21 @@
-## Hi there 👋
+# 👋 Hi, I'm Dish Dudhat  
 
-<!--
-**dudhat52/dudhat52** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Software Developer Enthusiast | Aspiring IT Analyst  
+📍 Toronto, ON | 📧 [dishdudhat85@gmail.com](mailto:dishdudhat85@gmail.com) | 🌐 [LinkedIn](https://www.linkedin.com/in/dish-dudhat)
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧠 About Me  
+Passionate about coding, problem-solving, and building efficient systems.  
+I love creating impactful software using modern tools and exploring the intersection of **development, data, and IT operations**.  
+Always curious. Always learning. Always improving.
+
+---
+
+### ⚙️ Tech Stack  
+**Languages:** Python · C++ · JavaScript · SQL · PowerShell  
+**Frameworks & Tools:** Node.js · Express · MongoDB · Git · Docker · Power BI · AWS · Azure  
+**Interests:** Full-Stack Development · Data Analytics · Automation · Cloud Computing 
+
+
+⭐ *“Turning ideas into reliable, data-driven solutions — one line of code at a time.”*
