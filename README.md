@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Dish Dudhat  
 
-💻 Software Developer Enthusiast | Aspiring IT Analyst  
+💻 AI Developer Enthusiast | IT Analyst  
 📍 Toronto, ON | 📧 [dishdudhat85@gmail.com](mailto:dishdudhat85@gmail.com) | 🌐 [LinkedIn](https://www.linkedin.com/in/dish-dudhat)
 
 ---
@@ -15,7 +15,4 @@ Always curious. Always learning. Always improving.
 ### ⚙️ Tech Stack  
 **Languages:** Python · C++ · JavaScript · SQL · PowerShell  
 **Frameworks & Tools:** Node.js · Express · MongoDB · Git · Docker · Power BI · AWS · Azure  
-**Interests:** Full-Stack Development · Data Analytics · Automation · Cloud Computing 
-
-
-⭐ *“Turning ideas into reliable, data-driven solutions — one line of code at a time.”*
+**Interests:**  · AI Automation · Cloud Computing · Building useful AI tools
