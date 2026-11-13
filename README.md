@@ -1,123 +1,189 @@
+
 # Dish Dudhat
 
-**IT Specialist | AI Automation Developer**  
-Toronto, Canada · [LinkedIn](https://www.linkedin.com/in/dish-dudhat) · [Email](mailto:dishdudhat85@gmail.com)
+### IT Specialist | Automation Developer | Cloud Analytics
 
-> **I build intelligent automation systems that connect business processes, data, and cloud technologies.**
+📍 Toronto, Canada · [LinkedIn](https://www.linkedin.com/in/dish-dudhat) · [Email](mailto:dishdudhat85@gmail.com)
 
-```bash
-$ whoami
-dish-dudhat
-
-$ cat focus.conf
-business_process_automation
-ai_assisted_workflows
-data_integration
-operational_reporting
-cloud_analytics     
-
-$ echo $MISSION
-Build reliable systems. Automate repetitive work. Turn data into useful decisions.
-```
-
-Most of my work starts with a manual process that people have learned to tolerate: a report rebuilt every morning, an attendance file checked line by line, a procedure that lives in one person's head. I turn that into a workflow with defined inputs, validation, exception handling, and a clear owner for the cases a machine shouldn't decide alone.
-
-*A good automation is one nobody has to think about, and anyone can inspect.*
+> Building automated workflows that connect business operations, data processing, and cloud technologies.
 
 ---
 
-## Skills
+## ⚡ Automation Engineering
 
-```toml
-[automation]            
-tools = ["Power Automate", "n8n", "Office Scripts", "Power Apps", "REST APIs", "Webhooks"]
+I design workflows that transform repetitive business processes into structured, reliable automation.
 
-[programming_and_data]  
-tools = ["Python", "JavaScript", "SQL", "Excel", "data validation", "data transformation"]
+My work focuses on **Microsoft Power Automate, Office Scripts, Excel automation, data integration, operational reporting, and exception handling**.
 
-[ai_automation]        
-tools = ["AI-assisted workflows", "document processing", "classification", "human-in-the-loop review"]
-exploring = ["AI agents"]
+### 🔄 Microsoft Power Automate — Workflow Architecture
 
-[cloud_analytics]    
-tools = ["Microsoft Azure", "cloud storage", "data pipelines", "SQL analytics", "reporting and visualization"]
+```mermaid
+flowchart TD
+    A(["⚡ TRIGGER<br/>Scheduled / File / Event"])
+    B["📥 GET DATA<br/>Excel / SharePoint / API"]
+    C{"🔍 VALIDATE<br/>Input Records"}
+    D["⚙️ PROCESS DATA<br/>Office Scripts / Python"]
+    E["📊 UPDATE REPORT<br/>Excel / Reporting"]
+    F["📨 DELIVER OUTPUT<br/>Email / Teams"]
+    G["⚠️ EXCEPTION HANDLING<br/>Log / Review"]
+    H(["✅ WORKFLOW COMPLETE"])
+
+    A --> B
+    B --> C
+    C -->|Valid| D
+    C -->|Invalid| G
+    D --> E
+    E --> F
+    F --> H
+
+    classDef trigger fill:#2563eb,color:#fff,stroke:#60a5fa
+    classDef process fill:#0e7490,color:#fff,stroke:#22d3ee
+    classDef decision fill:#334155,color:#fff,stroke:#94a3b8
+    classDef error fill:#92400e,color:#fff,stroke:#f59e0b
+    classDef success fill:#166534,color:#fff,stroke:#4ade80
+
+    class A trigger
+    class B,D,E,F process
+    class C decision
+    class G error
+    class H success
 ```
+
+**Trigger → Retrieve → Validate → Process → Report → Deliver**
+
+*Conceptual architecture illustrating my approach to workflow automation. Individual projects use different triggers and actions.*
 
 ---
 
-## Selected work
+## 🛠️ Technology Stack
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [**Flow IQ**](https://github.com/dudhat52/Flow_IQ-AFTX_AMAZON) | Warehouse scan-history analytics: shift windows, time-off-task gaps, productivity, cage counting, duplicate-timestamp handling, exception review | JavaScript userscripts |
-| [**Closio**](https://github.com/dudhat52/Closio-Clothing_store) · [live site](https://closio-clothing-store-dish-dudhats-projects.vercel.app/) | Full-stack clothing store with MVC structure, MongoDB persistence, and a Vercel deployment | Node.js, Express, EJS, MongoDB |
-| [**Operations Reporting Automation**](https://github.com/dudhat52/operations-reporting-automation) | A hand-built daily report turned into a scheduled, validated run with an exception log | Power Automate, Python, Excel |
-| [**HR Attendance Automation**](https://github.com/dudhat52/hr-attendance-automation) | Late-arrival detection and exception review for attendance files, with a person making the final call | Power Automate, Office Scripts, Excel |
-| [**Document-Driven Workflow Automation**](https://github.com/dudhat52/document-workflow-automation) | Turning a written procedure into a reviewed specification and a scheduled workflow | Power Automate, n8n |
-| [**Cloud Analytics Learning Lab**](https://github.com/dudhat52/cloud-analytics-learning-lab) | SQL modelling and data-quality checks on fictional data, with Azure next | SQL, Python, Azure |
-
-Flow IQ publishes no proprietary source, internal URLs, or employee data. The case studies are documentation only and use synthetic data.
-
----
-
-## How I build
-
-```python
-def run_workflow(records):
-    valid, rejected = validate(records)     # fail loudly at the door
-    log(rejected)                           # never drop data silently
-
-    result = transform(valid)
-
-    if needs_judgement(result):
-        return human_review(result)         # AI proposes, people approve
-
-    return deliver(result)                  # then log what happened
-```
-
-```text
- TRIGGER (schedule / file / webhook / form)
-        │
-        ▼
- INGEST ──► VALIDATE ──► reject + log bad records
-                │
-                ▼
-          TRANSFORM
-     (Office Scripts · Python · SQL)
-                │
-      ┌─────────┴─────────┐
-      ▼                   ▼
-  REPORTING          AI-ASSISTED STEP
- (Excel · BI)     (classify · extract · summarize)
-      │                   │
-      └─────────┬─────────┘
-                ▼
-       HUMAN REVIEW  ◄── exceptions and low-confidence results
-                │
-                ▼
-     DELIVER + LOG (email · Teams · file · API)
-```
-
-1. **Validate before you transform.** Bad input should fail loudly at the door, not quietly in the report.
-2. **Every automation needs an exception path.** If a person can't see what was skipped and why, it isn't finished.
-3. **AI proposes, people approve** whenever the decision has consequences.
+| Engineering Area | Technologies |
+|---|---|
+| ⚡ Automation | Power Automate, Office Scripts, Excel Automation |
+| 🔗 Integration | REST APIs, Webhooks, Data Integration |
+| 💻 Programming | Python, JavaScript, SQL |
+| 📊 Data Processing | Excel, Data Validation, Data Transformation |
+| 🤖 AI Automation | AI-Assisted Workflows, Document Processing (Developing) |
+| ☁️ Cloud Analytics | Microsoft Azure, ETL/ELT, SQL Analytics (Learning) |
+| 🧪 Exploring | n8n, Power Apps, AI Agents |
 
 ---
 
-## Currently learning
+## 🚀 Featured Automation Projects
 
-Cloud analytics and cloud data engineering on Microsoft Azure: how data is ingested, stored, modelled, quality-checked, and reported on at scale. I'm practising on fictional data in the [Learning Lab](https://github.com/dudhat52/cloud-analytics-learning-lab).
+### ⚡ 01 — Operations Reporting Automation
+
+**Scheduled Reporting | Data Processing | Workflow Orchestration**
+
+`Power Automate` `Excel` `Data Validation`
+
+**Status:** DOCUMENTED
+
+Converting repetitive operational reporting activities into structured workflows with scheduled execution, validation, and exception handling.
+
+**Workflow:** Scheduled Trigger → Data Collection → Validation → Calculations → Report Generation
 
 ---
 
-## Contact
+### 📋 02 — HR Attendance Automation
 
-```text
-email     dishdudhat85@gmail.com
-github    github.com/dudhat52
-linkedin  linkedin.com/in/dish-dudhat
+**Attendance Processing | Exception Management | Office Scripts**
+
+`Power Automate` `Office Scripts` `Excel`
+
+**Status:** EXPERIMENTAL
+
+Automating attendance record processing, shift-based time comparisons, point calculations, and pending-review workflows.
+
+**Workflow:** Input File → Employee Matching → Shift Validation → Point Calculation → Summary Update
+
+Includes exception handling and duplicate-processing safeguards.
+
+---
+
+### 📄 03 — Document-Driven Workflow Automation
+
+**Process Automation | Document Analysis | Workflow Design**
+
+`Power Automate` `Document Processing`
+
+**Status:** PLANNED
+
+Exploring how written business procedures can be translated into structured, scheduled automation workflows.
+
+**Proposed workflow:** Procedure → Requirements → Business Rules → Automation Design → Validation → Execution
+
+---
+
+### 📈 04 — Flow IQ
+
+**Operations Analytics | Activity Processing**
+
+`JavaScript` `Browser Userscripts`
+
+**Status:** PUBLISHED
+
+[View Repository](https://github.com/dudhat52/Flow_IQ-AFTX_AMAZON)
+
+Operational activity analysis, shift-based calculations, productivity monitoring, and exception identification.
+
+---
+
+### 🛍️ 05 — Closio
+
+**Full-Stack Web Application**
+
+`Node.js` `Express` `EJS` `MongoDB`
+
+**Status:** PUBLISHED
+
+[View Repository](https://github.com/dudhat52/Closio-Clothing_store)
+
+A clothing-store web application project exploring server-side development, database integration, and deployment.
+
+---
+
+## ☁️ Cloud Analytics & Data Engineering
+
+**Currently Learning — Microsoft Azure**
+
+I'm expanding my automation background into cloud analytics, focusing on how data is ingested, stored, transformed, validated, and analyzed.
+
+```mermaid
+flowchart LR
+    A["Data Sources"] --> B["Cloud Storage"]
+    B --> C["ETL / ELT"]
+    C --> D["SQL Analytics"]
+    D --> E["Data Quality"]
+    E --> F["Reporting"]
+
+    classDef cloud fill:#075985,color:#fff,stroke:#38bdf8
+    class A,B,C,D,E,F cloud
 ```
 
-I'm interested in work where an unclear manual process needs to become a defined, testable workflow, and in teams building toward cloud analytics.
+**Learning roadmap**
 
-*Processes in. Decisions out.*
+- [ ] Azure Storage and Data Services
+- [ ] SQL Analytics and Data Modelling
+- [ ] Cloud Data Ingestion
+- [ ] ETL / ELT Pipelines
+- [ ] Data Quality and Validation
+- [ ] Analytics and Reporting
+
+---
+
+## 🎯 Engineering Philosophy
+
+**Automate repetitive processes. Validate before processing. Make exceptions visible. Keep decisions explainable.**
+
+---
+
+<div align="center">
+
+### ⚡ AUTOMATION ENGINEERING × CLOUD ANALYTICS
+
+**Building reliable workflows today. Learning cloud data systems for tomorrow.**
+
+[GitHub](https://github.com/dudhat52) · [LinkedIn](https://www.linkedin.com/in/dish-dudhat) · [Email](mailto:dishdudhat85@gmail.com)
+
+</div>
