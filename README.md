@@ -1,32 +1,52 @@
 
 # Dish Dudhat
 
-### IT Specialist | Automation Developer | Cloud Analytics
+**IT Specialist | AI Automation Developer | Cloud Analytics **
 
-📍 Toronto, Canada · [LinkedIn](https://www.linkedin.com/in/dish-dudhat) · [Email](mailto:dishdudhat85@gmail.com)
-
-> Building automated workflows that connect business operations, data processing, and cloud technologies.
+📍 Toronto, Canada  
+[LinkedIn](https://www.linkedin.com/in/dish-dudhat) · [Email](mailto:dishdudhat85@gmail.com) · [GitHub](https://github.com/dudhat52)
 
 ---
 
-## ⚡ Automation Engineering
+## About Me
 
-I design workflows that transform repetitive business processes into structured, reliable automation.
+I work in IT and develop automation solutions that simplify business processes, improve operational reporting, and reduce repetitive manual tasks.
 
-My work focuses on **Microsoft Power Automate, Office Scripts, Excel automation, data integration, operational reporting, and exception handling**.
+My work focuses on **Microsoft Power Automate, Office Scripts, Excel, Python, JavaScript, and data integration**.
 
-### 🔄 Microsoft Power Automate — Workflow Architecture
+I enjoy building workflows that collect information, validate records, process data, handle exceptions, and generate useful reports.
+
+I'm currently expanding my skills in **Cloud Analytics and Data Engineering**, with a focus on Microsoft Azure, SQL, data pipelines, and reporting.
+
+---
+
+## Technical Skills
+
+| Category | Technologies |
+|---|---|
+| Automation | Power Automate, Office Scripts, Excel Automation |
+| Programming | Python, JavaScript, SQL |
+| Data | Excel, Data Validation, Data Transformation |
+| Integration | REST APIs, Webhooks |
+| AI Automation | AI-Assisted Workflows, Document Processing (Developing) |
+| Cloud Analytics | Microsoft Azure, SQL Analytics, Data Engineering (Learning) |
+| Exploring | n8n, Power Apps, AI Agents |
+
+---
+
+## My Automation Workflow
+
+This is a simplified example of how I design automation workflows using Microsoft Power Automate.
 
 ```mermaid
 flowchart TD
-    A(["⚡ TRIGGER<br/>Scheduled / File / Event"])
-    B["📥 GET DATA<br/>Excel / SharePoint / API"]
-    C{"🔍 VALIDATE<br/>Input Records"}
-    D["⚙️ PROCESS DATA<br/>Office Scripts / Python"]
-    E["📊 UPDATE REPORT<br/>Excel / Reporting"]
-    F["📨 DELIVER OUTPUT<br/>Email / Teams"]
-    G["⚠️ EXCEPTION HANDLING<br/>Log / Review"]
-    H(["✅ WORKFLOW COMPLETE"])
+    A["Power Automate Trigger"]
+    B["Get Data"]
+    C{"Validate Data"}
+    D["Process Records"]
+    E["Generate Report"]
+    F["Save or Deliver Report"]
+    G["Log Exception"]
 
     A --> B
     B --> C
@@ -34,156 +54,80 @@ flowchart TD
     C -->|Invalid| G
     D --> E
     E --> F
-    F --> H
-
-    classDef trigger fill:#2563eb,color:#fff,stroke:#60a5fa
-    classDef process fill:#0e7490,color:#fff,stroke:#22d3ee
-    classDef decision fill:#334155,color:#fff,stroke:#94a3b8
-    classDef error fill:#92400e,color:#fff,stroke:#f59e0b
-    classDef success fill:#166534,color:#fff,stroke:#4ade80
-
-    class A trigger
-    class B,D,E,F process
-    class C decision
-    class G error
-    class H success
 ```
 
-**Trigger → Retrieve → Validate → Process → Report → Deliver**
-
-*Conceptual architecture illustrating my approach to workflow automation. Individual projects use different triggers and actions.*
+The goal is to create reliable workflows with accurate data, clear exception handling, and minimal manual intervention.
 
 ---
 
-## 🛠️ Technology Stack
+## Featured Projects
 
-| Engineering Area | Technologies |
-|---|---|
-| ⚡ Automation | Power Automate, Office Scripts, Excel Automation |
-| 🔗 Integration | REST APIs, Webhooks, Data Integration |
-| 💻 Programming | Python, JavaScript, SQL |
-| 📊 Data Processing | Excel, Data Validation, Data Transformation |
-| 🤖 AI Automation | AI-Assisted Workflows, Document Processing (Developing) |
-| ☁️ Cloud Analytics | Microsoft Azure, ETL/ELT, SQL Analytics (Learning) |
-| 🧪 Exploring | n8n, Power Apps, AI Agents |
+### 1. Flow IQ — Operations Analytics
 
----
-
-## 🚀 Featured Automation Projects
-
-### ⚡ 01 — Operations Reporting Automation
-
-**Scheduled Reporting | Data Processing | Workflow Orchestration**
-
-`Power Automate` `Excel` `Data Validation`
-
-**Status:** DOCUMENTED
-
-Converting repetitive operational reporting activities into structured workflows with scheduled execution, validation, and exception handling.
-
-**Workflow:** Scheduled Trigger → Data Collection → Validation → Calculations → Report Generation
-
----
-
-### 📋 02 — HR Attendance Automation
-
-**Attendance Processing | Exception Management | Office Scripts**
-
-`Power Automate` `Office Scripts` `Excel`
-
-**Status:** EXPERIMENTAL
-
-Automating attendance record processing, shift-based time comparisons, point calculations, and pending-review workflows.
-
-**Workflow:** Input File → Employee Matching → Shift Validation → Point Calculation → Summary Update
-
-Includes exception handling and duplicate-processing safeguards.
-
----
-
-### 📄 03 — Document-Driven Workflow Automation
-
-**Process Automation | Document Analysis | Workflow Design**
-
-`Power Automate` `Document Processing`
-
-**Status:** PLANNED
-
-Exploring how written business procedures can be translated into structured, scheduled automation workflows.
-
-**Proposed workflow:** Procedure → Requirements → Business Rules → Automation Design → Validation → Execution
-
----
-
-### 📈 04 — Flow IQ
-
-**Operations Analytics | Activity Processing**
-
-`JavaScript` `Browser Userscripts`
-
-**Status:** PUBLISHED
+**Technologies:** JavaScript, Browser Userscripts  
+**Status:** Published
 
 [View Repository](https://github.com/dudhat52/Flow_IQ-AFTX_AMAZON)
 
-Operational activity analysis, shift-based calculations, productivity monitoring, and exception identification.
+An operations analytics project focused on activity records, productivity monitoring, shift-based calculations, and identifying operational exceptions.
 
----
+### 2. Operations Reporting Automation
 
-### 🛍️ 05 — Closio
+**Technologies:** Power Automate, Excel, Data Processing  
+**Status:** Documented
 
-**Full-Stack Web Application**
+An automation project focused on simplifying repetitive reporting tasks through scheduled workflows, data validation, calculations, and report generation.
 
-`Node.js` `Express` `EJS` `MongoDB`
+### 3. HR Attendance Automation
 
-**Status:** PUBLISHED
+**Technologies:** Power Automate, Office Scripts, Excel  
+**Status:** Experimental
+
+An attendance-processing automation that supports:
+
+- Late-arrival detection
+- Employee record matching
+- Attendance point calculations
+- Pending-review tracking
+- Exception handling
+- Duplicate-processing prevention
+
+The objective is to improve reporting consistency while keeping exceptions available for human review.
+
+### 4. Document-Driven Workflow Automation
+
+**Technologies:** Power Automate, Document Processing  
+**Status:** Planned
+
+A new automation project focused on converting written business procedures into structured automated workflows.
+
+The planned solution includes requirement analysis, workflow design, validation, exception handling, and scheduled execution.
+
+### 5. Closio — Clothing Store
+
+**Technologies:** Node.js, Express, EJS, MongoDB  
+**Status:** Published
 
 [View Repository](https://github.com/dudhat52/Closio-Clothing_store)
 
-A clothing-store web application project exploring server-side development, database integration, and deployment.
+A full-stack web development project focused on application structure, dynamic content, database integration, and deployment.
 
 ---
 
-## ☁️ Cloud Analytics & Data Engineering
+## Cloud Analytics & Data Engineering
 
-**Currently Learning — Microsoft Azure**
+I'm currently learning cloud analytics and exploring how cloud platforms can support data processing, storage, transformation, and reporting.
 
-I'm expanding my automation background into cloud analytics, focusing on how data is ingested, stored, transformed, validated, and analyzed.
-
-```mermaid
-flowchart LR
-    A["Data Sources"] --> B["Cloud Storage"]
-    B --> C["ETL / ELT"]
-    C --> D["SQL Analytics"]
-    D --> E["Data Quality"]
-    E --> F["Reporting"]
-
-    classDef cloud fill:#075985,color:#fff,stroke:#38bdf8
-    class A,B,C,D,E,F cloud
-```
-
-**Learning roadmap**
-
-- [ ] Azure Storage and Data Services
-- [ ] SQL Analytics and Data Modelling
-- [ ] Cloud Data Ingestion
-- [ ] ETL / ELT Pipelines
-- [ ] Data Quality and Validation
-- [ ] Analytics and Reporting
+My goal is to combine automation engineering with cloud analytics to develop reliable, data-driven systems.
 
 ---
 
-## 🎯 Engineering Philosophy
+## Contact
 
-**Automate repetitive processes. Validate before processing. Make exceptions visible. Keep decisions explainable.**
+**Email:** dishdudhat85@gmail.com  
+**GitHub:** [github.com/dudhat52](https://github.com/dudhat52)  
+**LinkedIn:** [linkedin.com/in/dish-dudhat](https://www.linkedin.com/in/dish-dudhat)
 
 ---
 
-<div align="center">
-
-### ⚡ AUTOMATION ENGINEERING × CLOUD ANALYTICS
-
-**Building reliable workflows today. Learning cloud data systems for tomorrow.**
-
-[GitHub](https://github.com/dudhat52) · [LinkedIn](https://www.linkedin.com/in/dish-dudhat) · [Email](mailto:dishdudhat85@gmail.com)
-
-</div>
+**Automating processes. Validating data. Building reliable systems.**
