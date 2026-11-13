@@ -34,32 +34,6 @@ I'm currently expanding my skills in **Cloud Analytics and Data Engineering**, w
 
 ---
 
-## My Automation Workflow
-
-This is a simplified example of how I design automation workflows using Microsoft Power Automate.
-
-```mermaid
-flowchart TD
-    A["Power Automate Trigger"]
-    B["Get Data"]
-    C{"Validate Data"}
-    D["Process Records"]
-    E["Generate Report"]
-    F["Save or Deliver Report"]
-    G["Log Exception"]
-
-    A --> B
-    B --> C
-    C -->|Valid| D
-    C -->|Invalid| G
-    D --> E
-    E --> F
-```
-
-The goal is to create reliable workflows with accurate data, clear exception handling, and minimal manual intervention.
-
----
-
 ## Featured Projects
 
 ### 1. Flow IQ — Operations Analytics
