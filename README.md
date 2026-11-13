@@ -14,7 +14,7 @@ business_process_automation
 ai_assisted_workflows
 data_integration
 operational_reporting
-cloud_analytics            # currently learning
+cloud_analytics     
 
 $ echo $MISSION
 Build reliable systems. Automate repetitive work. Turn data into useful decisions.
@@ -29,17 +29,17 @@ Most of my work starts with a manual process that people have learned to tolerat
 ## Skills
 
 ```toml
-[automation]            # established
+[automation]            
 tools = ["Power Automate", "n8n", "Office Scripts", "Power Apps", "REST APIs", "Webhooks"]
 
-[programming_and_data]  # established
+[programming_and_data]  
 tools = ["Python", "JavaScript", "SQL", "Excel", "data validation", "data transformation"]
 
-[ai_automation]         # developing
+[ai_automation]        
 tools = ["AI-assisted workflows", "document processing", "classification", "human-in-the-loop review"]
 exploring = ["AI agents"]
 
-[cloud_analytics]       # learning, no certification claimed
+[cloud_analytics]    
 tools = ["Microsoft Azure", "cloud storage", "data pipelines", "SQL analytics", "reporting and visualization"]
 ```
 
