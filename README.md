@@ -1,7 +1,7 @@
 
 # Dish Dudhat
 
-**IT Specialist | AI Automation Developer | Cloud Analytics **
+**IT Specialist | AI Automation Developer | Cloud Analytics**
 
 📍 Toronto, Canada  
 [LinkedIn](https://www.linkedin.com/in/dish-dudhat) · [Email](mailto:dishdudhat85@gmail.com) · [GitHub](https://github.com/dudhat52)
